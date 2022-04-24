@@ -16,7 +16,7 @@ function App() {
       <div className="container">
         <Sidebar/>
         <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/admin-UI" element={<Home />}></Route>
         <Route path="/users" element={<UserList />}></Route>
         <Route path="/user/:userId" element={<User/>}/>
         <Route path="/newUser" element={<NewUser/>}></Route>
